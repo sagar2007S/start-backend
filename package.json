@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a basic app to deploy",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js"
+  },
+  "keywords": [
+    "node",
+    "chai"
+  ],
+  "author": "sagar baryekar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
