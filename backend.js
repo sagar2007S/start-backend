@@ -52,7 +52,7 @@ app.get('/youtube', (req,res)=>{
 })
 
 
-app.json('/github', (res, res)=>{
+app.get('/github', (req, res)=>{
     res.send(`<h1>${gitHubData.login}</h1>`)
 })
 app.listen(process.env.PORT, () => {
